@@ -14,7 +14,7 @@ app.use("/api/doctor", doctorRoute);
 
 
 const port = process.env.PORT ;
-app.get("/", (req, res) => res.send("well done Ayan"));
+app.get("/", (req, res) => res.send("hiiiii"));
 
 
 app.listen(port, () => console.log(`Node Express Server Started at ${port}!`));
